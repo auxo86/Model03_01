@@ -13,5 +13,10 @@ namespace Model03_01.Controllers
         {
             return View();
         }
+        //GET:Home/
+        public ActionResult RedirDemo()
+        {
+            return RedirectToAction("Index");
+        }
     }
 }
